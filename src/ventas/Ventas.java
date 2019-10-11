@@ -15,9 +15,7 @@ public class Ventas {
         Producto producto11 = new Producto("Corbata", 60);
         Producto producto12 = new Producto("Corbatin", 80);
         Producto producto13 = new Producto("Corbatina", 100);
-
         Orden orden1 = new Orden();
-
         //Agregamos los productos a la orden
         orden1.agregarProducto(producto1);
         orden1.agregarProducto(producto2);
@@ -32,8 +30,6 @@ public class Ventas {
         orden1.agregarProducto(producto11);
         orden1.agregarProducto(producto12);
         orden1.agregarProducto(producto13);
-
-
         //Imprimir
         orden1.mostrarOrden();
     }
